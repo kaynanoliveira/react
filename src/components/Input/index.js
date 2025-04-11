@@ -1,8 +1,8 @@
-function Button() {
+function Input() {
     return (
       <div className="App"></div>
     );
   }
   
-  export default Button;
+  export default Input;
   

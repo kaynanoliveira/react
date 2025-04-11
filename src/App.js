@@ -1,11 +1,10 @@
-import Button from "./components/button";
+import { Container, Content } from './styles'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Olá React</h1>
-      <Button title="Entrar" />
-    </div>
+    <Container>
+      <Content>Calculadora</Content>
+    </Container>
   );
 }
 
