@@ -3,7 +3,7 @@ import {InputContainer} from './styles'
 function Input() {
     return (
       <InputContainer>
-      <input />
+      <input disabled />
       </InputContainer>
     );
   }

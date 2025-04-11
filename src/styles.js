@@ -9,12 +9,17 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
 
-
 `
 
 export const Content = styled.div `
-    width: 80%;
-    min-height: 350px;
+    width: 50%;
     background-color: #FFFF;
 
+`
+
+export const Row = styled.div `
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 `
