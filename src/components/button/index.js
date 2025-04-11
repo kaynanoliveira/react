@@ -1,8 +1,12 @@
+import {ButtonContainer} from './styles'
+
 function Button() {
     return (
-      <div className="App"></div>
+      <ButtonContainer>
+        1
+      </ButtonContainer>
     );
   }
   
-  export default Button;
+export default Button;
   

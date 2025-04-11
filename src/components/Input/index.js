@@ -1,6 +1,10 @@
+import {InputContainer} from './styles'
+
 function Input() {
     return (
-      <div className="App"></div>
+      <InputContainer>
+      <input />
+      </InputContainer>
     );
   }
   
